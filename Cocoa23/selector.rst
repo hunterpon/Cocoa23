@@ -76,7 +76,7 @@ Objective-C 物件會被編譯成 Structure
 
     [myObject doSomthing];
 
-或是透過 ``performSelector:`` 呼叫。 ``performSelector:`` 是 ``NSObject`` 的 method，而在 Cocoa Framework 中所有的物件都繼承自 ``NSObject`` ，所以每個勿建都可以呼叫這個 method。
+或是透過 ``performSelector:`` 呼叫。 ``performSelector:`` 是 ``NSObject`` 的 method，而在 Cocoa Framework 中所有的物件都繼承自 ``NSObject`` ，所以每個物件都可以呼叫這個 method。
 
 .. code-block:: objc
 
